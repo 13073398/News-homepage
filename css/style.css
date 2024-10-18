@@ -156,3 +156,53 @@ a{
     color: var(--Grayish_blue);
     font-size: 13px;
  }
+ .bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+ }
+ .bottom h2{
+    font-weight: bold;
+ }
+ .bottom .topic{
+    flex-grow: 1;
+   
+ 
+   
+    
+ }
+ .bottom .details{
+    margin-left: 100px;
+    padding: 10px 90px;
+ }
+ .bottom .details .article p{
+    color: var(--Dark_grayish_blue);
+ }
+
+ .bottom .details .control button{
+    background-color: var(--Very_dark_blue);
+    border-style: none;
+    cursor: pointer;
+    padding: 10px;
+    color: var(--Off-white);
+    width: 50%;
+    border-radius: 6px;
+
+ }
+ .about .row .topic h5{
+    color: var(--Soft_red);
+    font-weight: bold;
+ }
+ .about .row .topic h6{
+    font-weight: bold;
+    font-size: 12px;
+ }
+ .about .row .topic p{
+    color: var(--Dark_grayish_blue);
+    font-size: 12px;
+ }
+ .about img{
+    width: 100px;
+    height: 90px;
+ }
